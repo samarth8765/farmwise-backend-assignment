@@ -7,6 +7,14 @@
 
 ## Running the Application
 
+- You can either use this app or clone it from the GitHub repository.
+
+  - To clone the app from the github repository, run the following command:
+
+    ```bash
+    git clone https://github.com/samarth8765/farmwise-backend-assignment.git
+    ```
+
 - Create a virtual environment for your project and activate it:
 
   For Unix or MacOS:
