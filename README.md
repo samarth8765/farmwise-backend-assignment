@@ -71,6 +71,8 @@
    - Description: Registers a new user with the provided username and password.
    - Response: Confirmation message and status code.
 
+   ![Signup Image](./images/signup.png)
+
 2. Login:
 
    - URL: /login
@@ -81,6 +83,8 @@
    - Description: Authenticates the user. If successful, returns a JWT access token.
    - Response: JWT access token and status code.
 
+   ![Login Image](./images/login.png)
+
 3. Get Books:
 
    - URL: /books
@@ -89,6 +93,8 @@
    - Authorization: Bearer <access_token>
    - Description: Retrieves a list of all books in the database. Requires JWT authentication.
    - Response: A list of books and status code.
+
+   ![Get Image](./images/get_books.png)
 
 4. Post Book:
 
@@ -100,7 +106,9 @@
    - Description: Adds a new book to the database. Requires JWT authentication.
    - Response: Details of the added book and status code.
 
-5. Get Book:
+   ![Post Image](./images/post_books.png)
+
+5. Get Book by ISBN:
 
    - URL: /books/<isbn>
    - Method: GET
@@ -110,7 +118,7 @@
    - Description: Retrieves details of a specific book by its ISBN. Requires JWT authentication.
    - Response: Book details and status code.
 
-6. Update Book:
+6. Update Book by ISBN:
 
    - URL: /books/<isbn>
    - Method: PUT
@@ -121,7 +129,9 @@
    - Description: Updates details of a specific book by its ISBN. Requires JWT authentication.
    - Response: Updated book details and status code.
 
-7. Delete Book:
+   ![Signup Image](./images/put_books.png)
+
+7. Delete Book by ISBN:
 
    - URL: /books/<isbn>
    - Method: DELETE
@@ -130,3 +140,5 @@
    - URL Parameters: isbn of the book.
    - Description: Deletes a specific book from the database using its ISBN. Requires JWT authentication.
    - Response: Confirmation message and status code.
+
+   ![Signup Image](./images/delete_books.png)
